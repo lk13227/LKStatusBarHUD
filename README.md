@@ -18,7 +18,12 @@
 
 ## 显示自订信息
 ```objc
-[LKStatusBarHUD showSuccess:@"自订字符串" image:image];
+[LKStatusBarHUD showMessage:@"自订字符串" image:image];
+```
+
+## 显示纯文本信息
+```objc
+[LKStatusBarHUD showMessage:@"这是一条信息"];
 ```
 
 ## 隐藏
